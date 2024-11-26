@@ -1,0 +1,36 @@
+columnSuffix: null
+handle: drinksImage
+instructions: null
+name: 'Drinks Image'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:c727a404-b61e-4411-88d3-a6758df1d0ed' # Drinks
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:c727a404-b61e-4411-88d3-a6758df1d0ed' # Drinks
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add a drink image'
+  showCardsInGrid: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:c727a404-b61e-4411-88d3-a6758df1d0ed' # Drinks
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

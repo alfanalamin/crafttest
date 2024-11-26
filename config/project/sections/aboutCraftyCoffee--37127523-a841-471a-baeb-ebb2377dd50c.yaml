@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 96ee55ef-d79e-46a7-ad08-1ecffc7c3989 # About
+handle: aboutCraftyCoffee
+maxAuthors: 1
+name: 'About Crafty Coffee'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9f741da8-8be2-4628-9642-8554740acf4f: # Craft Test
+    enabledByDefault: true
+    hasUrls: true
+    template: about/_entry.twig
+    uriFormat: 'about/{slug}'
+structure:
+  maxLevels: null
+  uid: cf0c9020-b733-43c0-b7ff-85ced108f262
+type: structure

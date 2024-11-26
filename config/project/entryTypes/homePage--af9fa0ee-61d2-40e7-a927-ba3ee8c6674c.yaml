@@ -1,0 +1,69 @@
+color: null
+fieldLayouts:
+  23067bea-1f2d-4931-bff3-7aa7de6bf275:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-26T04:31:23+00:00'
+            elementCondition: null
+            fieldUid: c536bd9d-4e73-42fc-8350-0b9a674892b3 # Introductions
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e260dfab-ebd7-48fc-b75c-86ae013d8f88
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-26T04:31:23+00:00'
+            elementCondition: null
+            fieldUid: 50bdef05-f7c8-4d1b-a340-62afd82537d7 # Excerpt
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52309b02-0a80-4753-9e85-387e9571b2b9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-26T04:31:23+00:00'
+            elementCondition: null
+            fieldUid: 91c7ddbc-2020-4942-9a2c-27ac67844247 # Page Copy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b771dab6-dd1e-428a-89c5-edf67fba6e58
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a4aec3c0-e26c-4433-97dd-626e07d38ac3
+        userCondition: null
+handle: homePage
+hasTitleField: false
+icon: ''
+name: 'Home Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

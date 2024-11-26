@@ -1,0 +1,85 @@
+dateModified: 1732624428
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:34322055-1ec4-45f1-86e9-c9cfffdd8458' # Drinks
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - authors
+        - link
+        - 'field:dcdaacb7-f1cd-4656-b054-2733679ab473' # Drinks Image
+      type: native
+    -
+      key: 'section:4879599b-5ee3-4a01-8fdc-5d957e79ccad' # News
+      type: native
+email:
+  fromEmail: admin@gmail.com
+  fromName: 'Craft Test'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  localAssets:
+    hasUrls: false
+    name: 'Local Assets'
+    settings:
+      path: 'D:/laragon/www/crafttest/web/uploads/drinks'
+    type: craft\fs\Local
+    url: null
+meta:
+  __names__:
+    7e7523f3-14a0-4809-9e9b-acf52a3d4a84: Simple # Simple
+    9f741da8-8be2-4628-9642-8554740acf4f: 'Craft Test' # Craft Test
+    50bdef05-f7c8-4d1b-a340-62afd82537d7: Excerpt # Excerpt
+    91c7ddbc-2020-4942-9a2c-27ac67844247: 'Page Copy' # Page Copy
+    96ee55ef-d79e-46a7-ad08-1ecffc7c3989: About # About
+    03898d1d-58e5-4a65-a96c-4dcae8c63931: '840x200 thumb' # 840x200 thumb
+    4879599b-5ee3-4a01-8fdc-5d957e79ccad: News # News
+    34322055-1ec4-45f1-86e9-c9cfffdd8458: Drinks # Drinks
+    37127523-a841-471a-baeb-ebb2377dd50c: 'About Crafty Coffee' # About Crafty Coffee
+    a7749f2f-57f6-4f96-a3f3-53afa8c9cf2a: News # News
+    af9fa0ee-61d2-40e7-a927-ba3ee8c6674c: 'Home Page' # Home Page
+    c3f00190-c64a-408f-8886-7eec40efa7ca: Drinks # Drinks
+    c34e90f0-7933-4d19-8319-4d505cf7d4dc: 'Public Schema' # Public Schema
+    c536bd9d-4e73-42fc-8350-0b9a674892b3: Introductions # Introductions
+    c727a404-b61e-4411-88d3-a6758df1d0ed: Drinks # Drinks
+    c846bcff-dc53-42f0-a290-e87fd5114915: 'News Body' # News Body
+    d635aa09-3314-416d-8339-7472dc4a4446: 'Home page' # Home page
+    dcdaacb7-f1cd-4656-b054-2733679ab473: 'Drinks Image' # Drinks Image
+    ea578e88-bd6f-4d99-b10f-82834e0bc7b8: 'Craft Test' # Craft Test
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  redactor-tweaks:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: team
+  live: true
+  name: 'Craft Test'
+  schemaVersion: 5.5.0.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

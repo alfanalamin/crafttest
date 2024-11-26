@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - c3f00190-c64a-408f-8886-7eec40efa7ca # Drinks
+handle: coffeeDrinks
+maxAuthors: 1
+name: Drinks
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9f741da8-8be2-4628-9642-8554740acf4f: # Craft Test
+    enabledByDefault: true
+    hasUrls: true
+    template: coffee-drinks/_entry.twig
+    uriFormat: 'coffee-drinks/{slug}'
+type: channel

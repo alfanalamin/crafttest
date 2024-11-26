@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - a7749f2f-57f6-4f96-a3f3-53afa8c9cf2a # News
+handle: news
+maxAuthors: 1
+name: News
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9f741da8-8be2-4628-9642-8554740acf4f: # Craft Test
+    enabledByDefault: true
+    hasUrls: true
+    template: news/_entry.twig
+    uriFormat: 'news/{slug}'
+type: channel
