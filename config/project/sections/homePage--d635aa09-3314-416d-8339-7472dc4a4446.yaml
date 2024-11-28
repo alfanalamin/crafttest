@@ -22,6 +22,6 @@ siteSettings:
   9f741da8-8be2-4628-9642-8554740acf4f: # Craft Test
     enabledByDefault: true
     hasUrls: true
-    template: home-page/_entry.twig
+    template: _layouts/main.twig
     uriFormat: __home__
 type: single

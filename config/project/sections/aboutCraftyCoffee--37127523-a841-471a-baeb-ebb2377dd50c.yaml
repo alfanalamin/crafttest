@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 96ee55ef-d79e-46a7-ad08-1ecffc7c3989 # About
+  - 96ee55ef-d79e-46a7-ad08-1ecffc7c3989 # Default
 handle: aboutCraftyCoffee
 maxAuthors: 1
 name: 'About Crafty Coffee'
@@ -23,7 +23,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: about/_entry.twig
-    uriFormat: 'about/{slug}'
+    uriFormat: '{parent.uri}/{slug}'
 structure:
   maxLevels: null
   uid: cf0c9020-b733-43c0-b7ff-85ced108f262
